@@ -1,0 +1,19 @@
+{
+  "products" : [
+    { "id": 1,
+      "name": "Computador i7",
+      "price": 6000.00,
+      "category": "Eletrônicos"
+    },
+    { "id": 2,
+      "name": "Computador i5",
+      "price": 5000.00,
+      "category": "Eletrônicos"
+    },
+    { "id": 3,
+      "name": "Mouse",
+      "price": 640.00,
+      "category": "Eletrônicos"
+    }
+  ]
+}
