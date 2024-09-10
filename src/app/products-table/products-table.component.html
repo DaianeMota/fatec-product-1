@@ -2,7 +2,7 @@
     <div class="display-5">
       Cadastro de Produtos
     </div>
-  
+
     <table class="table table-striped">
       <thead>
         <tr>
@@ -10,18 +10,19 @@
           <th scope="col">Nome do Produto</th>
           <th scope="col">Preço</th>
           <th scope="col">Categoria</th>
+          <th scope="col">opções</th>
         </tr>
       </thead>
       <tbody>
-  
+
         <tr *ngFor="let product of products">
           <th scope="row">{{product.id}}</th>
           <td>{{product.name}}</td>
           <td>R$ {{product.price}}</td>
           <td>{{product.category}}</td>
+          <td><button class="btn btn-danger" (click)="delete(product)"   >Remover</button></td>
         </tr>
-  
+
       </tbody>
     </table>
   </div>
-  
